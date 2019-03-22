@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+    width: 960px;
+}
+#logo{
+    padding: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 25%;
+    position: relative;
+    float:left;
+    left:30px;
+}
+a{ float:left;
+        position: relative;
+    margin-right: 10px;
+    margin-top:50px;
+    left: 350px;}
+    .content{
+        top: 120px;
+        width:960px;
+        margin: 0 auto;
+        height: 200px;
+        border: solid 20px #dddddd;
+        vertical-align: middle;
+    }
+h2{
+    color: #4aaaa5;
+    margin: 0 auto;
+    float:left;
+    position: absolute;
+}
+footer{
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+    padding: 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
